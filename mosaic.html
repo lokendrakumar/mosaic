@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" type="text/css" href="/css/app.css"> -->
+    <script type="text/javascript" src="js/mosaic.js"></script>
+    <script type="text/javascript" src="js/client.js"></script>
+    <title>Mosaic</title>
+  </head>
+  <body>
+    <!-- Edit me. -->
+    <form>
+      <input type="file" id='image' onchange="loadImage()" accept="image/*">
+
+      <!-- <img type="file" id='showimage' accept="image/*"> -->
+      <div class="image-header-wrapper" style="margin-top: 20px">
+          <h4> Uploaded Image  </h4>
+          <img id='showimage' class="image-wrapper float-left"> </img>
+          <h4> Mosaic Image  </h4>
+          <div id="appened-image" class="image-wrapper float-left"> </div>
+      </div>
+    </form>
+  </body>
+</html>

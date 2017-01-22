@@ -1,0 +1,16 @@
+.image-header-wrapper
+{
+    display: inline-block;
+}
+.image-wrapper
+{
+    width: 50%;
+}
+.float-left
+{
+  float: left;
+}
+.float-right
+{
+  float: right;
+}
